@@ -16,3 +16,11 @@ Esse é o meu primeiro README
 
 
 ![Git](https://git-scm.com/images/about/index1@2x.png)
+
+- pip freeze | grep -v "^-e" | xargs pip uninstall -y   limpa todo biblioteca instalada
+- python -m venv .venv --cria um ambiente virtual
+- source .venv/bin/activate   deactivate
+
+
+
+
